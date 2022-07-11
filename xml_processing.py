@@ -6,9 +6,10 @@ import re
 
 
 def search_in_xml(dirpath):
-    with open("efrsb.csv", 'w') as f:
+
+    with open("efrsb.csv", 'w', newline='', encoding="utf-16") as f:
         writer = csv.writer(f)
-        writer.writerow(['№', 'Огрн', 'Инн', 'Дата банкротства'])
+        writer.writerow(['№', 'Регистрационный номер', 'Код налогоплательщика', 'Дата банкротства'])
 
         n = 0
         prefix_map = {"xsi": 'http://www.w3.org/2001/XMLSchema-instance'}
