@@ -1,0 +1,4 @@
+outs:
+- md5: e43f4905dc19083e67176415ac5d1681
+  size: 1565087727
+  path: spark.csv

@@ -1,0 +1,4 @@
+outs:
+- md5: 0330916153d7caddac81250cf5934995
+  size: 1570861695
+  path: bankruptcy_data.csv
